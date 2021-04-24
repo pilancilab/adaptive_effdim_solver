@@ -24,11 +24,7 @@ Download datasets from openml.org, e.g, Dilbert
 ```
 python ./datasets/dowload_dataset_openml --dataset 'dilbert'
 ```
-Download WESAD dataset [2]
-```
-chmod u+x download_wesad.sh
-./datasets/download_wesad.sh
-```
+Download WESAD dataset [2] by executing ./datasets/download_wesad.sh
 
 ### Compare iterative solvers
 ```
