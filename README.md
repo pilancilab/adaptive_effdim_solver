@@ -2,7 +2,7 @@
 
 Optimization problem
 ```math
-\min_{x \in \mathbb{R}^d} \left\{ f(x) := \frac{1}{2} \|Ax-b\|_2^2 + \frac{\nu^2}{2} \|x\|_2^2 \right\}
+$$\min_{x \in \mathbb{R}^d} \left\{ f(x) := \frac{1}{2} \|Ax-b\|_2^2 + \frac{\nu^2}{2} \|x\|_2^2 \right\}$$
 ```
 
 Example: iterative Hessian sketch.
