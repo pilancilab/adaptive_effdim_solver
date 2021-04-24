@@ -4,7 +4,7 @@ Solve regularized least-squares optimization problem with sketching-based precon
 
 Choice of sketch size? Can be as small as the effective dimension of the optimization problem.
 
-Problem: computing $$d_e$$ is in general expensive.
+Problem: computing the effective dimension is in general expensive.
 
 Adaptive methods: time-varying (adaptive) sketch size; start with small sketch size; at each step, check whether enough progress is made; if not, double sketch size and recompute the sketch.
 
