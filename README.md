@@ -1,7 +1,9 @@
 # Sketching-based preconditioned iterative solvers with adaptive sketch size at the level of the effective dimension
 
 Optimization problem
-$$\min_{x \in \mathbb{R}^d} \left\{ f(x) := \frac{1}{2} \|Ax-b\|_2^2 + \frac{\nu^2}{2} \|x\|_2^2 \right\}$$
+```math
+\min_{x \in \mathbb{R}^d} \left\{ f(x) := \frac{1}{2} \|Ax-b\|_2^2 + \frac{\nu^2}{2} \|x\|_2^2 \right\}
+```
 
 Example: iterative Hessian sketch.
 $$x_{t+1} = x_t - \mu_t H_S^{-1} \nabla f(x_t)$$
