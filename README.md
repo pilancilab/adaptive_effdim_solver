@@ -26,3 +26,6 @@ Results stored in ./results/dilbert_nu_1.npz
 
 ### Plot results
 Instructions in jupyter notebook ./plot_results.ipynb
+
+## References
+[1] P. Schmidt, A. Reiss, R. Duerichen, C. Marberger, and K. Van Laerhoven. Introducing WESAD, a multimodal dataset for wearable stress and affect detection. In ICMI, 2018.
