@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Numpy, Scipy, Scikit-learn, Pandas, Cvxopt
+Numpy, Scipy, Scikit-learn, Pandas, cvxopt
 
 ## Usage
 
