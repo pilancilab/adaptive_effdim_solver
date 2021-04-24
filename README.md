@@ -41,4 +41,5 @@ Instructions in jupyter notebook ./plot_results.ipynb
 
 ## References
 [1] J. Lacotte and M. Pilanci. Effective dimension adaptive sketching methods for faster regu-856larized least-squares optimization. NeurIPS 2020.
+
 [2] P. Schmidt, A. Reiss, R. Duerichen, C. Marberger, and K. Van Laerhoven. Introducing WESAD, a multimodal dataset for wearable stress and affect detection. In ICMI, 2018.
