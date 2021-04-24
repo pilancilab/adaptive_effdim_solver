@@ -1,19 +1,12 @@
 # Sketching-based preconditioned iterative solvers with adaptive sketch size at the level of the effective dimension
 
-Optimization problem
-```math
-$$\min_{x \in \mathbb{R}^d} \left\{ f(x) := \frac{1}{2} \|Ax-b\|_2^2 + \frac{\nu^2}{2} \|x\|_2^2 \right\}$$
-```
+Solve regularized least-squares optimization problem with sketching-based preconditioned iterative solvers, e.g., iterative Hessian sketch.
 
-Example: iterative Hessian sketch.
-$$x_{t+1} = x_t - \mu_t H_S^{-1} \nabla f(x_t)$$
-where $$H_S = A^\top S^\top S A + \nu^2 I_d$$ and $$S \in \mathbb{R}^{m \times n}$$ sketching matrix (Gaussian, SRHT, SJLT).
-
-Choice of sketch size $$m$$? Can be as small as the effective dimension $$d_e \approx \sum_{i=1}^d \frac{\sigma_i^2}{\sigma_i^2 + \nu^2}$$, where $$\sigma_1 \geq \dots \geq \sigma_d$$ are the singular values of $$A$$.
+Choice of sketch size? Can be as small as the effective dimension of the optimization problem.
 
 Problem: computing $$d_e$$ is in general expensive.
 
-Adaptive methods: time-varying (adaptive) sketch size $$m_t$$; start with $$m_0 = 1$$; at each step, check whether enough progress is made; if not, double sketch size $$m_t$$ and recompute $$H_{S_t}$$.
+Adaptive methods: time-varying (adaptive) sketch size; start with small sketch size; at each step, check whether enough progress is made; if not, double sketch size and recompute the sketch.
 
 Adaptive iterative methods: iterative Hessian sketch, preconditioned conjugate gradient method, heavy-ball method.
 
