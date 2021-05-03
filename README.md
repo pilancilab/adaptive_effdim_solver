@@ -24,7 +24,7 @@ Download datasets from openml.org, e.g, Dilbert
 ```
 python ./datasets/dowload_dataset_openml --dataset 'dilbert'
 ```
-Download WESAD dataset [2] by executing ./datasets/download_wesad.sh
+Download WESAD dataset [3] by executing ./datasets/download_wesad.sh
 
 ### Compare iterative solvers
 ```
@@ -36,6 +36,6 @@ Results stored in ./results/dilbert_nu_1.npz
 Instructions in jupyter notebook ./plot_results.ipynb
 
 ## References
-[1] J. Lacotte and M. Pilanci. Effective dimension adaptive sketching methods for faster regu-856larized least-squares optimization. NeurIPS 2020.
-
-[2] P. Schmidt, A. Reiss, R. Duerichen, C. Marberger, and K. Van Laerhoven. Introducing WESAD, a multimodal dataset for wearable stress and affect detection. In ICMI, 2018.
+[1] J. Lacotte and M. Pilanci. Effective dimension adaptive sketching methods for faster regularized least-squares optimization. NeurIPS 2020.
+[2] J. Lacotte and M. Pilanci. Fast Convex Quadratic Optimization Solvers with Adaptive Sketching-based Preconditioners. Arxiv preprint 2021. https://arxiv.org/pdf/2104.14101.pdf
+[3] P. Schmidt, A. Reiss, R. Duerichen, C. Marberger, and K. Van Laerhoven. Introducing WESAD, a multimodal dataset for wearable stress and affect detection. In ICMI, 2018.
