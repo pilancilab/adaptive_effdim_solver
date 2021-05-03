@@ -10,7 +10,7 @@ Adaptive methods: time-varying (adaptive) sketch size; start with small sketch s
 
 Adaptive iterative methods: iterative Hessian sketch, preconditioned conjugate gradient method, heavy-ball method.
 
-See [1] for details.
+See [1,2] for details.
 
 ## Requirements
 
